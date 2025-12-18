@@ -1,0 +1,19 @@
+.header {
+  background: var(--white);
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary);
+}
+
+nav a {
+  margin-left: 20px;
+  font-weight: 500;
+}
